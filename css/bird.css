@@ -1,0 +1,417 @@
+body {
+    font-family: STKaiti, KaiTi_GB2312, "华文楷体", "宋体", Arial, Helvetica, sans-serif;
+}
+.header{
+    width: 100%;
+    background:#221236 url("../images/aboutxiaoniao/beader_bg.jpg")no-repeat top center;
+    height: 50px;
+    position:fixed;
+    z-index: 999;
+}
+.header .logo{
+    width: 1100px;
+    height: 50px;
+}
+.header .logo .logo_left{
+    float: left;
+}
+.header .logo .logo_right{
+    float:right;
+    width: 930px;
+    height: 25px;
+    line-height: 25px;
+    padding-top: 11px;
+}
+.header .logo .logo_right ul li{
+    float: left;
+    position: relative;
+}
+.header .logo .logo_right ul li a{
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    padding: 0 15px;
+    height: 30px;
+    color: #aeabb4;
+    cursor: pointer;
+}
+.header .logo .logo_right .now a{
+    background: url("../images/nav_now_bg.png")no-repeat bottom center;
+    color: #fff;
+}
+.header .logo .logo_right a:hover{
+    background: url("../images/nav_now_bg.png")no-repeat bottom center;
+    color: #fff;
+    transition: all .5s ease 0s;
+}
+.content_wrap{
+    width: 100%;
+    /*height:648px ;*/
+    position:relative;
+    overflow: hidden;
+    top: 50px;
+}
+.content_wrap .contents{
+    width: 100%;
+    /*height:648px ;*/
+    position: relative;
+    top: 0;
+}
+.content_wrap .content{
+    width: 100%;
+    min-width: 1100px;
+    height: 648px;
+    position: relative;
+}
+.content_wrap .contents .content1{
+    background-color: #221236;
+    color: #fff;
+    position: relative;
+}
+.content_wrap .contents .content1 .welcome1{
+    width: 100%;
+    height: 560px;
+    text-align: center;
+    top: 35%;
+    margin-top: -280px;
+    position: absolute;
+    font-size: 20px;
+}
+.content_wrap .contents .welcome1 .title{
+    position:relative;
+    top: -35px;
+}
+.content_wrap .contents .welcome1 .title{
+    position:relative;
+    top: -35px;
+}
+.content_wrap .contents .welcome1 .p1{
+    font-size: 44px;
+    line-height: 48px;
+}
+.content_wrap .contents .welcome1 .p2{
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+.content_wrap .contents .welcome1 .ems{
+    position: relative;
+    top: -10px;
+}
+.content_wrap .contents .welcome1 .ems span{
+    font-size: 48px;
+}
+.content_wrap .contents .welcome1 .ems .yinhao1_zuo{
+    position: relative;
+    left: -8px;
+    top: -30px;
+}
+.content_wrap .contents .welcome1 .ems .yinhao1_you{
+    position: relative;
+    right: -8px;
+    top: 17px;
+}
+.content_wrap .contents .welcome1 .donext{
+    height: 58px;
+    width: 58px;
+    background: url("../images/aboutxiaoniao/donext.png")no-repeat 0 -58px;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px auto 0;
+}
+.content_wrap .contents .welcome1 .donext:hover{
+    background-position: 0 0;
+    transition: all .5s ease 0s;
+}
+.content_wrap .contents .content2{
+    background: #fff;
+    /*width: 1366px;*/
+    height: 648px;
+    position: relative;
+    overflow: hidden;
+}
+.content_wrap .contents .content2 .welcome2{
+    width:300%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.content_wrap .contents .content2 .gaisu{
+    width: 33.33333333%;
+    height: 648px;
+    /*background: darkcyan;*/
+    /*margin-top: 10px;*/
+    float: left;
+}
+.content_wrap .contents .content2 .gaisu_content{
+    width:100% ;
+    height:648px;
+}
+.content_wrap .contents .content2 .gaisu .p1{
+    font-size: 54px;
+    color:#311759 ;
+    font-weight: bold;
+    text-align: center;
+}
+.content_wrap .contents .content2 .gaisu_content .em{
+    width: 630px;
+    font-size: 18px;
+    color: #6b6a6f;
+    line-height: 30px;
+    margin: 20px auto 20px;
+    position: relative;
+}
+.content_wrap .contents .content2 .gaisu_content .phone img{
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.content_wrap .contents .content2 .gaisu1 .block{
+    width: 700px;
+    height: 100px;
+    margin-top: 50px;
+    text-align: left;
+}
+.content_wrap .contents .content2 .gaisu1 .bbo{
+    width: 700px;
+    text-align: center;
+    margin-left: 355px;
+}
+.content_wrap .contents .content2 .gaisu1 .block img{
+    float: left;
+}
+.content_wrap .contents .content2 .gaisu1 .block > div{
+    padding-top: 10px;
+    float:left;
+    margin-left: 55px;
+}
+.content_wrap .contents .content2 .gaisu1 .block h1{
+    font-size: 24px;
+}
+.content_wrap .contents .content2 .gaisu1 .block h2{
+    font-size: 18px;
+}
+.content_wrap .contents .content2 .gaisu2 .gaisu_content{
+    text-align: center;
+}
+.content_wrap .contents .content2 .gaisu2 p{
+    width: 730px;
+    margin: 55px auto 0;
+    line-height: 30px;
+    font-size: 18px;
+    color: #6b6a6f;
+    text-align: left;
+    text-indent: 2em;
+}
+.content_wrap .contents .content2 .gaishu_goleft{
+    width: 58px;
+    height: 58px;
+    background: url(../images/aboutxiaoniao/goleft.png) no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -29px;
+    cursor: pointer;
+    left: 60px;
+}
+.content_wrap .contents .content2 .gaishu_goright{
+    width: 58px;
+    height: 58px;
+    background: url(../images/aboutxiaoniao/goright.png)-58px 0 no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -29px;
+    cursor: pointer;
+    right: 60px;
+}
+.content_wrap .contents .content2 .gaishu_goleft:hover {
+    background-position: -58px 0;
+    transition: all 0.5s ease 0s;
+}
+.content_wrap .contents .content2 .gaishu_goright:hover {
+    background-position: 0 0;
+    transition: all 0.5s ease 0s;
+}
+.content_wrap .contents .content3{
+    color: #fff;
+    background: #221236;
+    position: relative;
+}
+.content_wrap .contents .content3 .jiazhi_content{
+    width: 970px;
+    height: 560px;
+    /*background: aqua;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -280px 0 0 -485px;
+}
+.content_wrap .contents .content3 .jia{
+    overflow: hidden;
+    margin: 10px 0;
+}
+.content_wrap .contents .content3 .jia > div{
+    float: left;
+    height: 20px;
+    width: 20px;
+    position: relative;
+}
+.content_wrap .contents .content3 .jia .ji{
+    position: absolute;
+    left: 0;
+    top: 0;
+    /*opacity: 0;*/
+}
+.content_wrap .contents .content3 .jiazhi_content h1{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.content_wrap .contents .content3 .jiazhi_content .rooms{
+    height: 317px;
+    width: 850px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.content_wrap .contents .content3 .jiazhi_content .room{
+    float: left;
+    width: 390px;
+    margin-right: 30px;
+    margin-bottom: 46px;
+    /*background:darkcyan;*/
+    z-index: 999;
+}
+.content_wrap .contents .content3 .jiazhi_content .room .nomber {
+    width: 74px;
+    height: 74px;
+    background: url(../images/aboutxiaoniao/jiazhi_quanquan.png) no-repeat;
+    line-height: 74px;
+    text-align: center;
+    margin-right: 27px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content_wrap .contents .content3 .jiazhi_content .room p {
+    float: left;
+    width: 280px;
+    font-size: 18px;
+    margin-top: 13px;
+}
+.content_wrap .contents .content4{
+    background: #f1f2f6;
+}
+.content_wrap .contents .content4 .yun_content{
+    width: 910px;
+    height: 560px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -280px 0 0 -455px;
+    /*background: teal;*/
+}
+.content_wrap .contents .content4 .yun_content > h1 {
+    font-size: 54px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #311759;
+}
+.content_wrap .contents .content4 .yun_slidebox {
+    height: 420px;
+    width: 910px;
+    overflow: hidden;
+    position: relative;
+}
+.content_wrap .contents .content4 .yun_slidebox .yun_slider {
+    width: 1820px;
+    height: 420px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content_wrap .contents .content4 .yun_slidebox .yun_slider > div {
+    width: 910px;
+    float: left;
+    line-height: 36px;
+    background: url(../images/aboutxiaoniao/xuxian_bg.png);
+    font-size: 16px;
+    font-family: KaiTi_GB2312;
+    color: #535355;
+}
+.content_wrap .contents .content4 .btn_box {
+    width: 204px;
+    height: 8px;
+    margin: 0 auto;
+}
+.content_wrap .contents .content4 .btn_box > div {
+    float: left;
+    margin: 0 12px;
+    width: 78px;
+    height: 8px;
+    border-radius: 4px;
+    background: url(../images/aboutxiaoniao/xiaoniaoyun_btn.png) no-repeat 0 -8px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+.content_wrap .contents .content4 .btn_box .yunmove_btn {
+    position: absolute;
+    top: 0;
+    left: -78px;
+    width: 78px;
+    height: 8px;
+    background: url(../images/aboutxiaoniao/xiaoniaoyun_btn.png) no-repeat 0 0;
+    transition: all 0.5s ease 0s;
+}
+.content_wrap .contents .content4 .btn_box .now {
+    cursor: default;
+    transition: all 0.5s ease 0s;
+}
+.content_wrap .contents .content5{
+    background: url("../images/aboutxiaoniao/app&contacts.jpg")no-repeat center center;
+}
+.welcome_wrap {
+    width: 100%;
+    min-width: 1100px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    /*height: 700px;*/
+    background-color: #299ad6;
+    z-index: 999;
+    padding-top: 50px;
+    color: #fff;
+}
+.welcome_wrap .welcome_content{
+    height: 560px;
+    position: absolute;
+    top: 50%;
+    margin-top: -280px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+.welcome_wrap .welcome_content .title {
+    font-size: 44px;
+    line-height: 48px;
+}
+.welcome_wrap .welcome_content .en_title{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px;
+}
+.welcome_wrap .welcome_content .pp{
+    display: none;
+}
+.welcome_wrap .welcome_content .ems{
+    padding-top: 15px;
+}
+.welcome_wrap .welcome_content .ems .yinhao1_zuo{
+    position: relative;
+    left: -8px;
+    top: -30px;
+}
+.welcome_wrap .welcome_content .ems span{
+    font-size: 48px;
+}
+.welcome_wrap .welcome_content .ems .yinhao1_you{
+    position: relative;
+    right: -8px;
+    top: 17px;
+}

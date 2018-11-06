@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/footer.js"></script>
+    <script>
+       $(function(){
+           $(".fotter .music span").hover(function(){
+               var num=$(this).index();
+               $(".mus").attr('src','music/sound0'+num+'.mp3').trigger("play");
+//               $(".mus")[0].play()
+           })
+       })
+    </script>
+</head>
+<body>
+<div class="fotter">
+    <div class="inner">
+        <!--<audio class="mus" src="music/sound00.mp3"></audio>-->
+        <div class="music">
+            <span></span>
+            <span style="background-image:url(images/yinyue_lai.png)"></span>
+            <span style="background-image:url(images/yinyue_mi.png)"></span>
+            <span style="background-image:url(images/yinyue_fa.png)"></span>
+            <span style="background-image:url(images/yinyue_suo.png)"></span>
+            <span style="background-image:url(images/yinyue_la.png)"></span>
+            <span style="background-image:url(images/yinyue_xi.png)"></span>
+        </div>
+        <div class="declare">
+            蜀ICP备16002451号
+        </div>
+    </div>
+</div>
+</body>
+</html>

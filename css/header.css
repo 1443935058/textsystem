@@ -1,0 +1,82 @@
+body {
+    font-family: STKaiti, KaiTi_GB2312, "华文楷体", "宋体", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.header{
+    width: 100%;
+    height: 120px;
+    background:url("../images/header_bg.jpg") ;
+}
+.header .header-left{
+    float: left;
+}
+.header-right{
+    float: right;
+}
+.header-right .u1{
+    padding-top: 45px;
+}
+a{
+    color: white;
+}
+.header-right li{
+    float: left;
+    color: white;
+    position:relative;
+    /*height: 200px;*/
+    z-index: 999;
+    cursor: pointer;
+}
+.header-right li+li{
+    margin-left: 30px;
+}
+.header-right .dian{
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    z-index: 3;
+}
+.header-right .dian{
+    display: none;
+}
+.header-right li .stu1{
+    width: 180px;
+    height: 240px;
+    position: absolute;
+    top: 30px;
+    left: -30px;
+    background: #36264a;
+}
+.header-right li .stu1 p{
+    padding-left: 30px;
+    line-height: 40px;
+}
+.header-right li .stu2,.header-right li .stu3{
+    width: 151px;
+    height:120px;
+    background: #36264a;
+    position: absolute;
+    left: -30px;
+    top: 30px;
+}
+.header-right li .stu p{
+    padding-left: 30px;
+    line-height: 40px;
+}
+.header-right .u1 li p{
+    position: relative;
+}
+.header-right .u1 li p img{
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.header-right .u1 li div{
+    display: none;
+}
+.header-right .u1 li div p img{
+    display: none;
+}
+.header-right .u1 li:hover .dian{
+    display: block !important;
+}
